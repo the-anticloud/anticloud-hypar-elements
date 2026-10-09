@@ -1,0 +1,40 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "index.html",
+    "distDir": "."
+  },
+  "package": {
+    "productName": "HYPAR_ELEMENTS",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "shell": {
+        "open": true
+      }
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "gg.anticloud.hypar_elements",
+      "category": "DeveloperTool",
+      "shortDescription": "HYPAR_ELEMENTS \u2014 Anticloud Sovereign AI Infrastructure",
+      "longDescription": "Installer for HYPAR_ELEMENTS, part of the Anticloud sovereign AI infrastructure stack"
+    },
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "HYPAR_ELEMENTS Installer",
+        "width": 900,
+        "height": 700,
+        "resizable": true,
+        "fullscreen": false
+      }
+    ]
+  }
+}
