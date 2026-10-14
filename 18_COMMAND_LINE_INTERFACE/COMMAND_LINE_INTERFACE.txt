@@ -1,0 +1,31 @@
+ Command Line Interface — HYPAR_ELEMENTS
+
+Upstream: https://github.com/hypar-io/hypar-elements
+
+ Anticloud CLI
+
+bash
+ Install
+pip install anticloud-hypar-elements
+
+ Run offline with PAX inference
+anticloud-hypar-elements --offline --pax-local
+
+ Run with AIOSS logging
+anticloud-hypar-elements --aioss-log ./ledger.jsonl
+
+ Single binary (after build)
+./hypar_elements --config config.yaml
+
+
+ Options
+
+| Flag | Description |
+| --- | --- |
+| --offline | Disable all network calls |
+| --pax-local | Use local PAX inference at 127.0.0.1:11434 |
+| --aioss-log PATH | Write AIOSS audit chain to PATH |
+| --encrypt | Enable AES-256 at rest for output files |
+| --gpu | Force GPU inference |
+| --cpu | Force CPU inference |
+| --config PATH | Load configuration from YAML file |
