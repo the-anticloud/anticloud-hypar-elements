@@ -541,9 +541,11 @@
  "license": "MIT",
  "source": {
   "git": {
-   "tree_sha3": "cd629b6d12554fc8e229370632a2d3427bd08070f8d083716b44569f3f77c592",
-   "tree_files": 51,
-   "tree_note": "SHA3-256 over vendored source tree on disk (paths+contents, excl .git); recompute to verify"
+   "url": "https://github.com/hypar-io/LargestInteriorRectangle",
+   "head": "0b7519a70e0630a7eaf209015e4710f377eb86bc",
+   "branch": "",
+   "sha_verified_from": "permissive resolve 2026-10-16: MIT/Apache genre match",
+   "previous_upstream": ""
   }
  }
 }
